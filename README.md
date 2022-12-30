@@ -11,7 +11,7 @@ the playlists that has been created and shared on the Spotify’s profile.
 <a href="username.github.io/folder/document.pdf" target="_blank">PDF.</a>
 
 <a href="https://github.com/Julieeno/Song-s-Popularity/blob/Song’s Popularity - Social Media Management
-Project.pdf" class="image fit" ><img src="images/marr_pic.jpg" alt=""></a>
+Project.pdf"  target="_blank">PDF.</a>
 
 For more informations look [a relative link](Song’s Popularity - Social Media Management
 Project.pdf)
