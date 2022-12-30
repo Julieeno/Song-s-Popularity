@@ -8,7 +8,8 @@ taken, in addition, in order to be able to take a greater vast and varied quanti
 of possible music tracks, this algorithm cares to extrapolate them directly from
 the playlists that has been created and shared on the Spotify’s profile.
 
-<a href="https://github.com/fabfabit/MyStuff_public/blob/master/files/ProjMarr_slides.pdf" class="image fit" ><img src="images/marr_pic.jpg" alt=""></a>
+<a href="https://github.com/Julieeno/Song-s-Popularity/blob/Song’s Popularity - Social Media Management
+Project.pdf" class="image fit" ><img src="images/marr_pic.jpg" alt=""></a>
 
 For more informations look [a relative link](Song’s Popularity - Social Media Management
 Project.pdf)
