@@ -44,10 +44,9 @@ def getTrackFeatures(id):
 
 playlists = sp.user_playlists('spotify')
 
-#Le linee di codice sottostanti sono quelle che servono per scrivere
-#il documento .csv che conterrà tutte le tracce, poiché l'esecuzione di
-#questa parte del programma ci impiega alcune ore, ho pensato di lasciarla
-#commentata per ottenere immediatamente l'elaborazione dei dati
+#The lines below are used to write the .csv document that is going to
+#contain all the tracks. Because the execution of this part of the program
+#goes on for a couple of hours, it has been commented to have a quick run
 
 # with open('Songs.csv', 'w', newline="") as file:
 #     writer = csv.writer(file)
@@ -75,9 +74,10 @@ playlists = sp.user_playlists('spotify')
 #                 playlists = None
 
 
-play_lists = pd.read_csv('D:\Desktop\Progetto Social Media Management - X81000678\Songs.csv')
+#certain songs could be present more time in several playlist, with the following lines it is possible to clean the duplicates
+play_lists = pd.read_csv(' ') 
 play_lists.drop_duplicates(subset=None, inplace=True)
-play_lists.to_csv('D:\Desktop\Progetto Social Media Management - X81000678\Songs.csv', index=False)
+play_lists.to_csv(' ', index=False)
 
 playlists_train, playlists_test = train_test_split(play_lists, test_size=0.10, random_state=9)
 
